@@ -1,0 +1,151 @@
+.email-preview {
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    border-bottom: 1px solid rgb(214, 214, 220);
+}
+
+.email-preview:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    /* z-index: 2; */
+    cursor: pointer;
+}
+
+.mail-name {
+    font-size: 0.875rem;
+    color: rgb(32, 33, 36);
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-basis: 180px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.txt-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 6px;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.mail-subject {
+    font-size: 0.875rem;
+}
+
+.mail-body {
+    color: rgb(110, 112, 117);
+    font-size: 0.875rem;
+    font-family: lato-Light;
+}
+
+.mail-time {
+    font-size: 0.80rem;
+    flex-basis: 93px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.email-display {
+    background-color: rgb(254, 252, 252);
+    /* height: 150px; */
+}
+
+.email-display {
+    padding: 0px 10px 0px 10px;
+    /* z-index: -1; */
+}
+
+.fullmail-subject {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.fullmail-subject button {
+    border: unset;
+    border-radius: 6px;
+    cursor: pointer;
+    /* box-shadow: 0 0 4px 2px grey; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: unset;
+}
+
+.delete-mail:hover {
+    background-color: tomato;
+}
+
+.draft-mail:hover {
+    background-color: pink;
+}
+
+.keep-mail:hover {
+    background-color: gold !important;
+}
+
+/* .fullmail-subject button:last-child:hover {
+    background-color: goldenrod;
+} */
+
+.fullmail-btn {
+    display: flex;
+    gap: 1%;
+    height: 25px;
+}
+
+.fullmail-name {
+    margin-top: 0;
+}
+
+.fullmail-name span {
+    color: gray;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.fullmail-body {
+    padding-left: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+}
+
+.unread-mail {
+    background-color: rgb(230 226 226 / 41%);
+    font-family: Lato-Black;
+    font-size: 0.750rem;
+}
+
+.toggle-unread {
+    cursor: pointer;
+}
+
+.toggle-unread:hover {
+    cursor: pointer;
+    background-color: rgb(62, 148, 62);
+}
+
+@media (max-width: 450px) {
+    .mail-name {
+        flex-basis: 140px;
+    }
+
+}

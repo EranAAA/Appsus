@@ -1,0 +1,24 @@
+.note-list {
+    max-width: 95%;
+    columns: 240px auto;
+    -webkit-columns: 240px auto
+
+}
+
+.todo-note {
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+
+
+@media (max-width: 510px) {
+    .note-list{
+        width: 100wh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

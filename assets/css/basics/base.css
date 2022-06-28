@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato-Regular;
+    margin: 0;
+    font-size: 0.875rem;
+
+    /* Stop Scroling */
+    overflow: hidden
+}
+
+Í{
+    font-family: Lato-Regular;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-msg {
+    position: fixed;
+    top: 66px;
+    right: 3px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+.user-msg button {
+    border: unset;
+    background-color: unset;
+}
+
+.user-msg.success {
+    background: lightgreen;
+}
+
+.user-msg.danger {
+    background: rgb(242, 121, 121);
+}
+
+.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}

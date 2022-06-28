@@ -1,0 +1,64 @@
+.app-email {
+    display: flex;
+    margin-top: 84px;
+    /* height: 1500px; */
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.mail-sidebar {
+    height: 100vh;
+    /* width: 256px; */
+    background-color: white;
+    padding: 0px 10px 10px 10px;
+    flex-basis: 256px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.email-list {
+    height: calc( 100vh - 101px );
+    width: 100%;
+    background-color: white;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.email-preview {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .mail-sidebar {
+        flex-basis: 175px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .title-sidebar {
+        width: 100px;
+    }
+
+    .app-email {
+        flex-direction: column;
+        /* justify-content: flex-start; */
+    }
+
+    .mail-sidebar {
+        flex-basis: 135px;
+    }
+
+    .email-list {
+        height: calc(100vh - 370px);
+    }
+}

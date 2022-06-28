@@ -1,0 +1,110 @@
+.add-note-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.add-note {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.558);
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    /* width: 350px; */
+}
+.add-note .add-form {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.add-note .text-area-add {
+    flex-direction: column;
+}
+
+.add-note textarea {
+    border: none;
+    height: 250px;
+    width: 100%;
+    font-size: inherit;
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    resize: none;
+    font-family: inherit;
+}
+
+.add-note input {
+    border: none;
+    height: 50px;
+    width: 300px;
+    outline: none;
+}
+
+.add-note .save-btns {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+.add-note .save-btn {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80px;
+    font-family: inherit;
+}
+
+.add-note .option-container {
+    display: flex;
+    align-content: center;
+    justify-self: flex-end;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 5px;
+}
+
+.add-note .option-container .img-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.add-note img {
+    height: 20px;
+}
+
+@media (max-width: 520px) {
+    .add-note {
+        align-content: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.558);
+        margin-top: 2px;
+        align-self: flex-start;
+        /* width: 100%; */
+        
+    }
+
+    .add-note .option-container {
+        gap: 10px;
+      
+    }
+
+    .add-note textarea {
+    }
+    
+    .add-note input {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .add-note {
+        flex-direction: column;
+    }
+}

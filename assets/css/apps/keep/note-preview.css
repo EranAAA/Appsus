@@ -1,0 +1,91 @@
+.note-preview {
+    /* padding: 15px; */
+    padding-bottom: 5px;
+    border: 1px solid rgb(214, 214, 220);
+    border-radius: 0.8rem;
+    width: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.825rem;
+    margin-bottom: 20px;
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+}
+
+.note-preview:hover {
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.558);
+}
+
+.note-preview:hover .preview-btns{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.note-preview pre {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    flex:1;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: pre-line;
+    font-family: inherit;
+}
+
+.note-preview img {
+    object-fit:cover;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.note-preview video {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.note-preview .preview-btns {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    opacity: 0;
+
+    
+}
+
+.note-preview .preview-btns img {
+}
+
+.note-preview .preview-btns .preview-btn {
+    cursor: pointer;
+}
+
+
+
+.note-preview .preview-btns img {
+    height: 25px;
+}
+
+@media (max-width: 840px) {
+
+    .note-preview .preview-btns {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 510px) {
+    .note-preview{
+        width: 90%;
+    }
+
+}
+    /* .note-preview {
+        margin-left: 0px;
+    } */
+

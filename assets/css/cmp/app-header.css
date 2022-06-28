@@ -1,0 +1,104 @@
+.app-header {
+    display: flex;
+    justify-content: flex-start;
+    height: 64px;
+    align-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(214, 214, 220);
+    margin-bottom: 20px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+/* .app-header * {
+    margin: 0 10px 0 10px;
+} */
+
+.app-header h1 {
+    /* font-size: 25px; */
+    /* margin-bottom: 10px ; */
+    font-family: Lato-Light;
+    flex-basis: 246px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* margin-left: 9px */
+        /* flex: 1 */
+}
+
+.app-header nav * {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    /* background-color: brown; */
+    padding: 15px;
+    align-self: stretch;
+}
+
+.app-header nav *:hover {
+    color: gold;
+}
+
+/* .app-header nav>*:not(:last-child) {
+    margin-inline-end: 10px;
+} */
+
+.modal-btn {
+    border: unset;
+    background-color: unset;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.modal-btn img {
+    height: 24px;
+}
+
+.modal-btn:hover {
+    background-color: unset;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    background-color: white;
+    top: 50px;
+    right: 15px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid rgb(197 197 197);
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px rgb(197 197 197);
+}
+
+.modal nav {
+    display: flex;
+    flex-direction: row;
+    /* gap: 18px; */
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.modal nav a:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    z-index: 2
+}
+
+@media (max-width: 800px) {
+    .app-header h1 {
+        flex-basis: 170px;
+    }
+}
+
+@media (max-width: 600px) {
+    .app-header h1 {
+        flex-basis: 126px;
+    }
+}

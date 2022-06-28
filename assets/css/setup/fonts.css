@@ -1,0 +1,29 @@
+@font-face {
+    font-family: RobotoBlack;
+    src: url('../fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url('../fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato-Regular.ttf');
+}

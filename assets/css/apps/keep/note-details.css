@@ -1,0 +1,98 @@
+/* .note-details {
+    width: 100%;
+    height: 100%;
+} */
+
+.note-details-container {
+    width: 100%;
+}
+
+.note-details {
+    width: 400px;
+    height: 380px;
+}
+
+.edit-container {
+    background-color: white;
+    box-shadow: 0 0 15px 10px lightgrey;
+    /* padding: 10px; */
+    color: grey;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.note-details textarea {
+    width: 400px;
+    height: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25rem;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 20px;
+    white-space:pre-line;
+}
+
+.note-details .detail-img {
+    width: 400px;
+    height: 380px;
+    object-fit:cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.note-details .edit-btns-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: space-between;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.note-details .edit-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.note-details .edit-btns .edit-btn {
+    opacity: 0.1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.note-details .edit-btns .edit-btn:hover {
+    opacity: 1;
+}
+
+.note-details .edit-btns .back-btn-container {
+    justify-self: flex-end;
+}
+
+.note-details .back-btn  {
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+    font-weight: 600;
+    opacity: 0.1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.note-details .back-btn:hover {
+    opacity: 1
+}
+
+@media (max-width: 550px) {
+    .edit-container {
+        /* width: 100%; */
+    }
+    .note-details textarea {
+        width: 280px;
+    }
+}

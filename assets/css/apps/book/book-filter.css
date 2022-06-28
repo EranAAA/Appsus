@@ -1,0 +1,37 @@
+
+.book-filter {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+    /* box-shadow: 0 0 10px rgb(0 0 0 / 56%); */
+    width: 26rem;
+
+    align-self: center;
+    background-color: rgb(239, 241, 242)
+}
+
+.book-filter input {
+    background-color: rgb(239, 241, 242);
+    border: none;
+    height: 30px;
+    width: 24rem;
+    font-size: 1rem;
+    /* margin-top: 84px; */
+}
+
+.book-filter input:focus-visible {
+    outline-width: 0;
+}
+
+@media (max-width: 650px) {
+    .book-filter {
+        width: 100%;
+        flex:5;
+        /* margin-left: 20px; */
+    }
+
+    .book-filter input {
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+/*GENERAL*/
+
+@import url(setup/fonts.css);
+@import url(setup/variables.css);
+@import url(basics/base.css);
+@import url(cmp/app-header.css);
+@import url(cmp/app-footer.css);
+@import url(cmp/app-home.css);
+@import url(setup/keyframes.css);
+
+/* KEEP */
+@import url(apps/keep/app-keep.css);
+@import url(apps/keep/note-preview.css);
+@import url(apps/keep/note-list.css);
+@import url(apps/keep/note-filter.css);
+@import url(apps/keep/add-note.css);
+@import url(apps/keep/note-details.css);
+@import url(apps/keep/pinned-notes.css);
+
+/* MAIL */
+@import url(apps/mail/app-mail.css);
+@import url(apps/mail/mail-preview.css);
+@import url(apps/mail/mail-details.css);
+@import url(apps/mail/mail-compose.css);
+@import url(apps/mail/mail-filter.css);
+@import url(apps/mail/side-bar.css);
+@import url(apps/mail/mail-filter-ctg.css);
+
+/* BOOK */
+@import url(apps/book/book-list.css);
+@import url(apps/book/book-preview.css);
+@import url(apps/book/book-filter.css);
+@import url(apps/book/book-details.css);
+@import url(apps/book/book-edit.css);
+@import url(apps/book/review-add.css);
+@import url(apps/book/book-api.css);

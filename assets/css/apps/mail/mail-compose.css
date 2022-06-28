@@ -1,0 +1,121 @@
+.email-compose {
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    padding: 0;
+    border-radius: 10px 10px 0px 0;
+
+}
+
+.compose-btn-cls {
+    border: unset;
+    background-color: unset;
+    /* padding: 0px; */
+    /* padding-bottom: 5px; */
+    font-size: 0.875rem;
+    color: rgb(170,170,170);
+    font-family: Lato-Black;
+}
+
+.compose-btn-cls:hover {
+    cursor: pointer;
+    background-color: unset;
+    background-color: rgb(73,73,73);
+}
+
+.compose-span {
+    font-weight: 500;
+    color: #121212;
+}
+
+.compose-body {
+    font-weight: 500;
+    color: #121212;
+    padding: 10px;
+}
+
+.email-compose form {
+    display: flex;
+    flex-direction: column;
+    height: 88%;
+    justify-content: flex-start;
+}
+
+.email-compose form * {
+    font-size: 0.875rem;
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    border: unset;
+    border-bottom: 1px rgb(233, 236, 239) solid;
+    line-height: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-family: Lato-Black;
+    color: rgb(106,106,106);
+}
+
+.email-compose input:focus-visible {
+    outline-width: 0;
+}
+.email-compose textarea:focus-visible {
+    outline-width: 0;
+}
+
+textarea {
+    height: 430px;
+    font-size: 16px;
+}
+
+.send-btn {
+    margin-top: 10px; 
+    width: 100px;
+    cursor: pointer;
+    border: unset;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.send-btn:hover {
+    box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+    background-color: #297be6;
+    outline: 1px solid transparent;
+    border: none;
+}
+
+.compose-header {
+    height: 40px;
+    background-color: rgb(56,56,56);
+    border-radius: 10px 10px 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.new-msg {
+    color: white;
+    font-family: Lato-Black;
+}
+
+@media (max-width: 670px) {
+    .email-compose {
+        width: 450px;
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .email-compose {
+        width: 330px;
+        height: 450px;
+    }
+}

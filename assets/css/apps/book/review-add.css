@@ -1,0 +1,52 @@
+.review-add {
+    background-color: white;
+    flex:1;
+    color: #121212;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.review-add h2{
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+.review-add form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.review-container {
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.review-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 10px;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .review-container textarea {
+      height: unset;
+      width: 80%;
+  }

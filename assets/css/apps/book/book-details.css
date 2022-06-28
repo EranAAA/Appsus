@@ -1,0 +1,143 @@
+.book-details-container {
+  display: flex;
+  height: 100vh;
+  overflow-y: auto;
+  margin-top: 84px;
+  flex-direction: column;
+  height: calc(100vh - 150px);
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.main-header {
+  /* background-color: #383838; */
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+
+}
+
+.main-body {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 20px;
+  text-align: left;
+  justify-content: center;
+}
+
+.some-container {
+  display: flex;
+}
+
+.main-details {
+  line-height: 40px;
+  /* width: 400px; */
+  padding-right: 20px;
+  flex: 1;
+}
+
+.main-details h2{
+  margin-top: 0;
+  text-align: center;
+}
+
+.main-details span {
+  text-decoration: underline;
+  /* color:lightskyblue; */
+  /* font-family: Roboto-Bold; */
+}
+
+.img-preview {
+  object-fit: contain;
+  max-height: 200px;
+  padding-right: 10px;
+}
+
+.long-txt span:last-child {
+  cursor: pointer;
+  /* color: #cdbe78; */
+  text-decoration: none;
+}
+
+.long-txt span:first-child {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.authors {
+  margin-top: 0;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  gap: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.btn-container * {
+  margin: 0;
+}
+
+.btn-back {
+  width: 150px;
+  height: 40px;
+  background-color: #066163;
+  color: #f2f2f2;
+  /* font-family: Roboto; */
+  border-radius: 5px;
+  border: unset;
+  cursor: pointer;
+}
+
+.btn-delete {
+  width: 150px;
+  height: 40px;
+  background-color: tomato;
+  color: #f2f2f2;
+  /* font-family: Roboto; */
+  border-radius: 5px;
+  border: unset;
+  cursor: pointer;
+}
+
+.btn-edit {
+  width: 150px;
+  height: 40px;
+  background-color: gold;
+  color: #121212;
+  /* font-family: Roboto; */
+  border-radius: 5px;
+  border: unset;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #528586;
+}
+
+.redColor {
+  color: tomato;
+}
+
+.greenColor {
+  color: green;
+}
+
+.amount span {
+  color: f2f2f2;
+}

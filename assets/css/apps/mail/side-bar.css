@@ -1,0 +1,133 @@
+.sidbar-list {
+    list-style-type: none;
+    line-height: 30px;
+    padding-left: 0;
+}
+
+.sidbar-list * {
+    /* padding-left: 20px; */
+    text-decoration: none;
+    color: #121212;
+    /* margin-left: 10px;
+    padding-left: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.sidbar-list *:hover {
+    background-color: rgba(239, 241, 242);
+    border-radius: 0px 20px 20px 0px;
+    /* margin-right: 10px; */
+    font-weight: 700;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.sidbar-list .active {
+    background-color: rgba(251, 229, 227);
+    color: rgb(211, 47, 41);
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: flex;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.sidebar-precantage-container {
+    background-color: white;
+    text-align: center;
+    /* border: 1px solid #121212; */
+    margin: 5px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.sidebar-precantage {
+    background-color: lightgreen;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-btn-container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+
+.sidebar-btn-container * {
+    text-decoration: none;
+}
+
+.sidbar-btn {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    background-color: unset;
+    border-radius: 24px;
+    border: none;
+    height: 48px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 126px;
+    padding: 0px 15px 0 15px;
+    font-size: .875rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidbar-btn img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    display: block;
+}
+
+.sidbar-btn:hover {
+    box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    background-color: #fafafb;
+}
+
+.filter-btn img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.star-preview {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.title-sidebar {
+    width: 215px;
+}
+
+@media (max-width: 800px) {
+
+    .title-sidebar {
+        width: 95px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sidbar-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .mail-sidebar {
+        flex-basis: 135px;
+        /* position: fixed;
+        top: 80px; */
+    }
+
+}

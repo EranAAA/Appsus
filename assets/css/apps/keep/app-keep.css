@@ -1,0 +1,31 @@
+
+.app-keep {
+    display: flex;
+    margin-top: 84px;
+    overflow-y: auto;
+
+}
+
+.app-keep .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex:1;
+    /* margin-right: 40px; */
+    height: calc(100vh - 180px);
+    overflow-y:auto;
+}
+
+@media (max-width: 670px) {
+    .app-keep {
+        flex-direction: column;
+        flex:0;
+        height: calc(100vh - 158px);
+    }
+
+    .app-keep .note-filter {
+        margin-bottom: 20px;
+    }
+
+}
